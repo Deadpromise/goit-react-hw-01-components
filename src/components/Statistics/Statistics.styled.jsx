@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatSect = styled.section`
-    
+    margin-left: 30px;
 `;
 export const StatTitle = styled.h2`
     text-align: center;
