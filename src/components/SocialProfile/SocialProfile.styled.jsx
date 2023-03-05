@@ -1,28 +1,55 @@
 import styled from '@emotion/styled';
 
 export const UserProfile = styled.div`
-
+    border: 1px solid black;
 `;
-
 export const UserDescription = styled.div`
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 30px;
 `;
-
 export const UserAvatar = styled.img`
 
 `;
-
 export const UserName = styled.p`
-
+    margin-top: 10px;
 `;
-
 export const UserTag = styled.p`
-
+     margin-top: 10px;
 `;
-
 export const UserLocation = styled.p`
-
+    margin-top: 10px;
 `;
+export const UserStatsList = styled.ul`
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: silver;
+`;
+export const UserStatsItem = styled.li`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    width: calc((100% / 3) - 40px);
+
+    &:not(:last-child) {
+    border-right: 1px solid black;
+    };
+ 
+`;
+export const UserStatsLabel = styled.span`
+    
+`;
+export const UserStatsQaunt = styled.span`
+    
+`;
+
 
 
 

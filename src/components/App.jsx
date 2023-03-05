@@ -1,4 +1,5 @@
 import { SocialProfile } from "./SocialProfile/SocialProfile";
+import user from 'user';
 
 export const App = () => {
   return (
@@ -12,8 +13,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <SocialProfile></SocialProfile>
-      React homework template
+      <SocialProfile profile={user}></SocialProfile>
     </div>
   );
 };
