@@ -1,3 +1,5 @@
+import { SocialProfile } from "./SocialProfile/SocialProfile";
+
 export const App = () => {
   return (
     <div
@@ -10,6 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <SocialProfile></SocialProfile>
       React homework template
     </div>
   );
