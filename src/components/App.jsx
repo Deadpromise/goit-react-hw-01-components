@@ -1,5 +1,8 @@
 import { SocialProfile } from "./SocialProfile/SocialProfile";
+import {Statistics} from './Statistics/Statistics'
 import user from 'user';
+import data from 'data';
+
 
 export const App = () => {
   return (
@@ -14,6 +17,7 @@ export const App = () => {
       }}
     >
       <SocialProfile profile={user}></SocialProfile>
+      <Statistics title='Upload stats' stats={data}></Statistics>
     </div>
   );
 };
